@@ -30,7 +30,7 @@ Se quiser derrubar o container:
 docker-compose down -d
 ```
 
-### Para ver os logs do api:.
+### Para ver os logs da api:.
 
 ```
 docker logs -f --tail 100 wine-sales
@@ -57,6 +57,8 @@ http://localhost:5600/clients/biggest-single-purchase
 ```
 
 * **Listar os cliente mais fiéis:** 
+
+Nesse caso, estou listando todos os clientes, ordenados pelo número de vezes que realizou compras durante o tempo.
 
 ```
 http://localhost:5600/clients/list-faithful-clients
